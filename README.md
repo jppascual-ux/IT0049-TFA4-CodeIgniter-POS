@@ -4,11 +4,11 @@
 |---|---|
 | **Course** | IT0049 – Web System Technologies |
 | **Activities** | TFA 2: From Arrays to a Real Database · TFA 3: Forms, Validation, and File Upload · TFA 4: Sessions and Authentication |
-| **Student** | *(your name)* |
-| **Section** | *(your section)* |
-| **Professor** | *(professor name)* |
-| **Live demo** | https://your-tfa3-subdomain.infinityfreeapp.com/ |
-| **Repository** | https://github.com/jppascual-ux/IT0049-TFA3-CodeIgniter-POS |
+| **Student** | *Pascual, Jose Luis P.* |
+| **Section** | *TX33* |
+| **Professor** | *Mar Eli C. Sagsagat* |
+| **Live demo** | https://https://jolo-pos-tfa3.ct.ws/ |
+| **Repository** | https://github.com/jppascual-ux/IT0049-TFA4-CodeIgniter-POS |
 | **Demo login** | Username `admin` · Password `password123` (every sample user uses `password123`) |
 
 One CodeIgniter 4 Point-of-Sale app that contains all three activities. The **home page lets you
