@@ -1,0 +1,7 @@
+# Routes all requests to the CodeIgniter /public folder.
+# Needed for shared hosting (InfinityFree) where the document root is htdocs/.
+# On localhost with "php spark serve" this file is ignored.
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^(.*)$ public/$1 [QSA,L]
+</IfModule>

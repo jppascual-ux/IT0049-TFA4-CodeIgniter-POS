@@ -1,0 +1,41 @@
+#-------------------------
+# Environment files
+#-------------------------
+.env
+!.env.example
+!.env.infinityfree.example
+
+#-------------------------
+# OS / editor
+#-------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+#-------------------------
+# Composer (not used; framework is included in /system)
+#-------------------------
+vendor/
+
+#-------------------------
+# Writable runtime files (keep folders, ignore contents)
+#-------------------------
+writable/cache/*
+!writable/cache/index.html
+writable/logs/*
+!writable/logs/index.html
+writable/session/*
+!writable/session/index.html
+writable/uploads/*
+!writable/uploads/index.html
+writable/debugbar/*
+!writable/debugbar/index.html
+.env.production
+
+#-------------------------
+# Uploaded avatars (keep the folder, the sample images and the safety files)
+#-------------------------
+public/uploads/avatars/*
+!public/uploads/avatars/index.html
+!public/uploads/avatars/sample-*.png
